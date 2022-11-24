@@ -85,6 +85,23 @@ print(mean(varstore))
 From the histogram its apparent for the 2 to 1 odds to be fair we need about 29 people in the class.If there are more than 29 people Dr. Brownlow is taking advantage of his students. :) 
 
 
+```{r}
+numClass=35
+odds=4.50
+countoDo=50
+varstore=numeric()
+for(i in 1:637){
+brownlow <-BrLw(numClass,odds,countoDo)
+varstore[i]=brownlow}
+```
+
+```{r}
+hist(varstore)
+print(mean(varstore))
+```
+For a class size of 35 students the pay out would be losing about $0.65.  
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
