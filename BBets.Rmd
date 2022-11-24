@@ -53,7 +53,7 @@ numClass=35
 odds=2
 countoDo=50
 varstore=numeric()
-for(i in 1:100){
+for(i in 1:637){
 brownlow <-BrLw(numClass,odds,countoDo)
 varstore[i]=brownlow}
 ```
@@ -68,11 +68,21 @@ print(mean(varstore))
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+numClass=29
+odds=2
+countoDo=50
+varstore=numeric()
+for(i in 1:637){
+brownlow <-BrLw(numClass,odds,countoDo)
+varstore[i]=brownlow}
+```
 
-
-
-
-
+```{r}
+hist(varstore)
+print(mean(varstore))
+```
+From the histogram its apparent for the 2 to 1 odds to be fair we need about 29 people in the class.If there are more than 29 people Dr. Brownlow is taking advantage of his students. :) 
 
 
 # Discussion and Conclusion
