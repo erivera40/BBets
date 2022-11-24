@@ -99,10 +99,11 @@ varstore[i]=brownlow}
 hist(varstore)
 print(mean(varstore))
 ```
-For a class size of 35 students the pay out would be losing about $0.65.  
+For a class size of 35 students the pay out would be $4.50.  
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+For a class size of 35 students for the 2 to 1 odds average Dr. Brownlow makes around $22. The class size that will make the payout fair is about 29 students. The fair odds for a bet on matching birthdays in a 35 person class is $4.50.
