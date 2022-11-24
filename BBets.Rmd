@@ -62,7 +62,7 @@ varstore[i]=brownlow}
 hist(varstore)
 print(mean(varstore))
 ```
-
+From the histogram its apparent for the 2 to 1 odds on average Dr. Brownlow makes $22.00. 
 
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
